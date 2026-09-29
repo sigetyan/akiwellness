@@ -26,15 +26,15 @@ const T = {
   en: {
     names: { dry: "Dry massage", oil: "Oil massage", sports: "Sports massage & physio" },
     choice: (n, d) => `${n}, ${d} min`,
-    open: "Available today until 10pm",
-    before: "Opens at 12pm today. Book ahead now.",
-    after: "Closed for today. Booking for tomorrow from 12pm.",
+    open: "Taking bookings today, 12pm to 10pm",
+    before: "Treatments from 12pm today",
+    after: "Now booking from 12pm tomorrow",
     wa: (s, d) => `Hi Aki, I'd like to book a ${d} minute ${s}. Date, time and where I'm staying: `
   },
   ja: {
     names: { dry: "ドライマッサージ", oil: "オイルマッサージ", sports: "スポーツマッサージ＆理学療法" },
     choice: (n, d) => `${n}　${d}分`,
-    open: "本日22時まで受付中",
+    open: "本日12時から22時まで受付中",
     before: "本日12時から営業。事前予約を受付中です。",
     after: "本日の受付は終了しました。明日12時からのご予約を受付中です。",
     wa: (s, d) => `Akiさん、${s} ${d}分を予約したいです。希望日時と滞在先：`

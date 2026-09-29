@@ -23,4 +23,5 @@ Static site, no build step. English at `/`, Japanese at `/ja/`.
 - How is the balance paid on the day: cash, card, PayPay?
 - Deposit refund if cancelled 2+ days ahead (copy assumes full refund)
 - Any travel fee for outlying areas?
-- "Replies within the hour" promise, is it realistic?
+- Can she do couples or back to back treatments in the same chalet? (a strong upsell for groups)
+- Is the balance payable by card? Foreign guests rarely carry much cash
