@@ -14,7 +14,7 @@
 }
 
 *, *::before, *::after { box-sizing: border-box; }
-html { scroll-behavior: smooth; scroll-padding-top: 80px; }
+html { scroll-behavior: smooth; scroll-padding-top: 92px; }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
 
 body {
@@ -53,7 +53,7 @@ p { margin: 0 0 1em; max-width: 64ch; }
   backdrop-filter: blur(8px);
   border-bottom: 1px solid var(--mist);
 }
-.site-head .wrap { display: flex; align-items: center; justify-content: space-between; height: 68px; gap: 16px; }
+.site-head .wrap { display: flex; align-items: center; justify-content: space-between; height: 80px; gap: 16px; }
 .brand { font-family: var(--display); font-size: 1.35rem; text-decoration: none; color: var(--ink); }
 .head-actions { display: flex; align-items: center; gap: 18px; font-size: 0.95rem; }
 .lang { color: var(--ink-soft); text-decoration: none; }
@@ -223,3 +223,8 @@ footer .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; g
   .facts { grid-template-columns: 1fr 1fr; }
 }
 img.photo-wide { width: 100%; object-fit: cover; }
+
+.brand img { height: 56px; width: auto; }
+.closing-logo { height: 70px; width: auto; margin-bottom: 28px; }
+.foot-logo { height: 34px; width: auto; }
+@media (max-width: 520px) { .brand img { height: 40px; } }
