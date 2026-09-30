@@ -99,8 +99,8 @@ p { margin: 0 0 1em; max-width: 64ch; }
 .photo img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
 .photo .ph-label { position: relative; padding: 16px; text-align: center; }
 .photo-square { aspect-ratio: 1 / 1; border-radius: 6px; }
-.photo-wide { aspect-ratio: 21 / 9; border-radius: 6px; margin-bottom: 32px; }
-@media (max-width: 600px) { .photo-wide { aspect-ratio: 4 / 3; } }
+.photo-wide { aspect-ratio: auto; height: 260px; max-width: 760px; border-radius: 6px; margin-bottom: 28px; }
+@media (max-width: 600px) { .photo-wide { height: 180px; } }
 
 .yotei { display: block; width: 100%; height: 110px; margin-top: 24px; color: var(--line); }
 
@@ -222,3 +222,4 @@ footer .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; g
   .picker-options, .picker-summary { padding: 22px; }
   .facts { grid-template-columns: 1fr 1fr; }
 }
+img.photo-wide { width: 100%; object-fit: cover; }
