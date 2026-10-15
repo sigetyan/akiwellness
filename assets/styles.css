@@ -239,3 +239,7 @@ img.photo-wide { width: 100%; object-fit: cover; }
   .gallery { grid-template-columns: repeat(2, 1fr); gap: 12px; }
   .photo-portrait { margin: 0 auto; width: 100%; }
 }
+
+.aerials { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 28px; }
+.aerials img { width: 100%; height: auto; aspect-ratio: 4 / 3; object-fit: cover; border-radius: 6px; background: var(--mist); }
+@media (max-width: 600px) { .aerials { grid-template-columns: 1fr; gap: 12px; } }
