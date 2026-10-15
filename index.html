@@ -21,12 +21,16 @@
 <meta property="og:image" content="https://akiwellness.jp/assets/og.jpg">
 <meta property="og:locale" content="en_US">
 <meta property="og:locale:alternate" content="ja_JP">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Portrait of Aki Irikawa, physiotherapist and massage therapist in Niseko, at work">
 <meta name="twitter:card" content="summary_large_image">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@500;600&family=Zen+Kaku+Gothic+New:wght@400;500;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/assets/styles.css?v=3">
+<link rel="preload" as="image" type="image/webp" href="/assets/img/niseko-sports-massage-aki-physiotherapist.webp" fetchpriority="high">
+<link rel="stylesheet" href="/assets/styles.css?v=4">
 
 <script type="application/ld+json">
 {
@@ -40,7 +44,7 @@
       "alternateName": "アキ ウェルネス",
       "description": "Recovery conditioning and sports massage for skiers and snowboarders in Niseko, Hokkaido. Aki Irikawa, a Japan licensed physiotherapist with over 16 years of clinical experience, provides assessment and treatment at guests' accommodation, in English.",
       "url": "https://akiwellness.jp/",
-      "image": "https://akiwellness.jp/assets/og.jpg",
+      "image": ["https://akiwellness.jp/assets/og.jpg", "https://akiwellness.jp/assets/img/niseko-sports-massage-aki-physiotherapist.jpg"],
       "telephone": "+81-90-7482-1882",
       "priceRange": "¥25,000 to ¥36,000",
       "currenciesAccepted": "JPY",
@@ -83,6 +87,7 @@
     {
       "@type": "Person",
       "@id": "https://akiwellness.jp/#aki",
+      "image": "https://akiwellness.jp/assets/img/aki-irikawa-physiotherapist-niseko.jpg",
       "name": "Aki Irikawa",
       "alternateName": "入川",
       "jobTitle": "Physiotherapist and massage therapist",
@@ -141,9 +146,8 @@
           <li>Treatment in English</li>
         </ul>
       </div>
-      <!-- REPLACE: hero photo of Aki treating a guest. Use /assets/aki-hero.jpg, 1200x1500, under 250 KB -->
       <div class="photo">
-        <span class="ph-label">Photo of Aki at work</span>
+        <picture><source srcset="/assets/img/niseko-sports-massage-aki-physiotherapist.webp" type="image/webp"><img src="/assets/img/niseko-sports-massage-aki-physiotherapist.jpg" alt="Aki, a licensed physiotherapist, giving a sports massage to a guest on her treatment table in Niseko" width="960" height="1440" fetchpriority="high" decoding="async"></picture>
       </div>
     </div>
   </div>
@@ -235,8 +239,7 @@
 
 <section class="band" aria-labelledby="about-title">
   <div class="wrap about-grid">
-    <!-- REPLACE: portrait of Aki, /assets/aki-portrait.jpg, 1000x1000 -->
-    <div class="photo photo-square"><span class="ph-label">Portrait of Aki</span></div>
+    <div class="photo photo-portrait"><picture><source srcset="/assets/img/aki-irikawa-physiotherapist-niseko.webp" type="image/webp"><img src="/assets/img/aki-irikawa-physiotherapist-niseko.jpg" alt="Portrait of Aki Irikawa, physiotherapist and massage therapist in Niseko, at work" width="800" height="1200" loading="lazy" decoding="async"></picture></div>
     <div>
       <h2 id="about-title">About Aki</h2>
       <!-- REPLACE: a few lines in Aki's own words. Current text is filler built from known facts. -->
@@ -248,6 +251,21 @@
         <div><dt>Languages</dt><dd>English, 日本語</dd></div>
       </dl>
     </div>
+  </div>
+</section>
+
+<section class="gallery-sec" aria-labelledby="work-title">
+  <div class="wrap">
+    <div class="section-head">
+      <h2 id="work-title">Aki at work</h2>
+      <p>Every treatment is done on Aki's own table, brought to where you're staying.</p>
+    </div>
+    <ul class="gallery">
+      <li><picture><source srcset="/assets/img/niseko-massage-back-treatment.webp" type="image/webp"><img src="/assets/img/niseko-massage-back-treatment.jpg" alt="Aki's hands working along a guest's lower back during a massage" width="600" height="900" loading="lazy" decoding="async"></picture></li>
+      <li><picture><source srcset="/assets/img/niseko-sports-massage-calf.webp" type="image/webp"><img src="/assets/img/niseko-sports-massage-calf.jpg" alt="Close up of Aki working the calf muscle during a sports massage" width="600" height="900" loading="lazy" decoding="async"></picture></li>
+      <li><picture><source srcset="/assets/img/niseko-oil-massage-shoulders.webp" type="image/webp"><img src="/assets/img/niseko-oil-massage-shoulders.jpg" alt="Aki treating a guest's shoulders and upper back with oil massage" width="600" height="900" loading="lazy" decoding="async"></picture></li>
+      <li><picture><source srcset="/assets/img/niseko-ski-recovery-leg-massage.webp" type="image/webp"><img src="/assets/img/niseko-ski-recovery-leg-massage.jpg" alt="Aki smiling as she works on a guest's legs after a day of skiing" width="600" height="900" loading="lazy" decoding="async"></picture></li>
+    </ul>
   </div>
 </section>
 

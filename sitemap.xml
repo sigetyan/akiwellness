@@ -1,15 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://akiwellness.jp/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://akiwellness.jp/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://akiwellness.jp/ja/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://akiwellness.jp/"/>
+    <image:image><image:loc>https://akiwellness.jp/assets/img/niseko-sports-massage-aki-physiotherapist.jpg</image:loc></image:image>
+    <image:image><image:loc>https://akiwellness.jp/assets/img/aki-irikawa-physiotherapist-niseko.jpg</image:loc></image:image>
+    <image:image><image:loc>https://akiwellness.jp/assets/img/niseko-massage-back-treatment.jpg</image:loc></image:image>
+    <image:image><image:loc>https://akiwellness.jp/assets/img/niseko-sports-massage-calf.jpg</image:loc></image:image>
+    <image:image><image:loc>https://akiwellness.jp/assets/img/niseko-oil-massage-shoulders.jpg</image:loc></image:image>
+    <image:image><image:loc>https://akiwellness.jp/assets/img/niseko-ski-recovery-leg-massage.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://akiwellness.jp/ja/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://akiwellness.jp/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://akiwellness.jp/ja/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://akiwellness.jp/"/>
+    <image:image><image:loc>https://akiwellness.jp/assets/img/niseko-sports-massage-aki-physiotherapist.jpg</image:loc></image:image>
+    <image:image><image:loc>https://akiwellness.jp/assets/img/aki-irikawa-physiotherapist-niseko.jpg</image:loc></image:image>
+    <image:image><image:loc>https://akiwellness.jp/assets/img/niseko-massage-back-treatment.jpg</image:loc></image:image>
+    <image:image><image:loc>https://akiwellness.jp/assets/img/niseko-sports-massage-calf.jpg</image:loc></image:image>
+    <image:image><image:loc>https://akiwellness.jp/assets/img/niseko-oil-massage-shoulders.jpg</image:loc></image:image>
+    <image:image><image:loc>https://akiwellness.jp/assets/img/niseko-ski-recovery-leg-massage.jpg</image:loc></image:image>
   </url>
 </urlset>

@@ -202,7 +202,7 @@ footer .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; g
 @media (max-width: 900px) {
   .hero { padding-top: 36px; }
   .hero-grid, .about-grid { grid-template-columns: 1fr; gap: 36px; }
-  .hero .photo { aspect-ratio: 4 / 3; border-radius: 120px 120px 6px 6px; }
+  .hero .photo { width: 100%; max-width: 440px; margin: 0 auto; }
   .yotei { height: 70px; }
   .picker { grid-template-columns: 1fr; }
   .picker-options { border-right: 0; border-bottom: 1px solid var(--line); }
@@ -228,3 +228,14 @@ img.photo-wide { width: 100%; object-fit: cover; }
 .closing-logo { height: 70px; width: auto; margin-bottom: 28px; }
 .foot-logo { height: 34px; width: auto; }
 @media (max-width: 520px) { .brand img { height: 40px; } }
+
+/* Photos */
+.hero .photo { aspect-ratio: 2 / 3; }
+.photo picture { display: contents; }
+.photo-portrait { aspect-ratio: 2 / 3; border-radius: 6px; max-width: 420px; }
+.gallery { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; }
+.gallery img { width: 100%; height: auto; aspect-ratio: 2 / 3; object-fit: cover; border-radius: 6px; background: var(--mist); }
+@media (max-width: 900px) {
+  .gallery { grid-template-columns: repeat(2, 1fr); gap: 12px; }
+  .photo-portrait { margin: 0 auto; width: 100%; }
+}
