@@ -257,3 +257,5 @@ img.photo-wide { width: 100%; object-fit: cover; }
 /* Reviews */
 .reviews .review-original { font-family: var(--body); font-size: 0.92rem; color: var(--ink-soft); margin-top: -4px; }
 .reviews .review-note { font-size: 0.82rem; opacity: 0.8; }
+footer .credit { flex-basis: 100%; font-size: 0.82rem; opacity: 0.85; }
+footer .credit a { color: inherit; }
