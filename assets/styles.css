@@ -253,3 +253,7 @@ img.photo-wide { width: 100%; object-fit: cover; }
 .pay-notes ul { padding-left: 20px; margin: 0 0 16px; color: var(--ink-soft); }
 .pay-notes li { margin-bottom: 6px; }
 .picker-summary [hidden] { display: none; }
+
+/* Reviews */
+.reviews .review-original { font-family: var(--body); font-size: 0.92rem; color: var(--ink-soft); margin-top: -4px; }
+.reviews .review-note { font-size: 0.82rem; opacity: 0.8; }
