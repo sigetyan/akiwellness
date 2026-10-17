@@ -17,9 +17,9 @@ const PAY = {
     "dry-90": ""
   },
   prices: {
-    "sports-60": 30000, "sports-90": 36000,
-    "oil-60": 28000, "oil-90": 34000,
-    "dry-60": 25000, "dry-90": 32000
+    "sports-60": 30000, "sports-90": 35000,
+    "oil-60": 28000, "oil-90": 33000,
+    "dry-60": 25000, "dry-90": 30000
   },
   names: { sports: "Sports massage & physio", oil: "Oil massage", dry: "Dry massage" }
 };
